@@ -3,7 +3,7 @@ guid: fa0856ce0c0b3fb42af36e6c53346129
 timeCreated: 1511998412
 licenseType: Store
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: Head
@@ -144,10 +144,12 @@ ModelImporter:
     4300000: shadow_mesh
     9500000: //RootNode
     13700000: shadow_mesh
+  externalObjects: {}
   materials:
     importMaterials: 0
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -160,6 +162,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -973,5 +976,5 @@ ModelImporter:
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
+  assetBundleName: finishedscenebundle
   assetBundleVariant: 

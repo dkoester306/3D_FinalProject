@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: cc9c216b87f19ff4d9c9684f0224902d
-timeCreated: 1525054659
+guid: 9bca22fa741c01e41ae2f1a36c8ba7bc
+timeCreated: 1525223655
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -102,5 +102,5 @@ ModelImporter:
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
+  assetBundleName: finishedscenebundle
   assetBundleVariant: 

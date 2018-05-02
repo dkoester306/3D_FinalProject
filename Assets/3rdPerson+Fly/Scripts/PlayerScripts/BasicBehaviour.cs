@@ -27,6 +27,7 @@ public class BasicBehaviour : MonoBehaviour
 	private Rigidbody rBody;                              // Reference to the player's rigidbody.
 	private int groundedBool;                             // Animator variable related to whether or not the player is on the ground.
 	private Vector3 colExtents;                           // Collider extents for ground test. 
+	private Animator playerAnimator;
 
 	// Get current horizontal and vertical axes.
 	public float GetH { get { return h; } }
@@ -40,6 +41,8 @@ public class BasicBehaviour : MonoBehaviour
 
 	// Get the player's animator controller.
 	public Animator GetAnim { get { return anim; } }
+
+	public Animator GetPlayerAnim{get{return playerAnimator;}}
 
 	// Get current default behaviour.
 	public int GetDefaultBehaviour {  get { return defaultBehaviour; } }
@@ -55,11 +58,16 @@ public class BasicBehaviour : MonoBehaviour
 		camScript = playerCamera.GetComponent<ThirdPersonOrbitCamBasic> ();
 		rBody = GetComponent<Rigidbody> ();
 
+
 		// Grounded verification variables.
 		groundedBool = Animator.StringToHash("Grounded");
 		colExtents = GetComponent<Collider>().bounds.extents;
 	}
 
+	void Start()
+	{
+		playerAnimator = GameObject.FindGameObjectWithTag ("PlayerWithAnimator").GetComponent<Animator> ();
+	}
 	void Update()
 	{
 		// Store the input axes.
@@ -335,12 +343,13 @@ public abstract class GenericBehaviour : MonoBehaviour
 	protected BasicBehaviour behaviourManager;     // Reference to the basic behaviour manager.
 	protected int behaviourCode;                   // The code that identifies a behaviour.
 	protected bool canSprint;                      // Boolean to store if the behaviour allows the player to sprint.
-
+	protected int pSpeedFloat;
 	void Awake()
 	{
 		// Set up the references.
 		behaviourManager = GetComponent<BasicBehaviour> ();
 		speedFloat = Animator.StringToHash("Speed");
+		pSpeedFloat = Animator.StringToHash("pSpeed");
 		canSprint = true;
 
 		// Set the behaviour code based on the inheriting class.

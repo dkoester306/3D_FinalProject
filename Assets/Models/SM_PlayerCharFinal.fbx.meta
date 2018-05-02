@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 7f5bc5b49a9f6024fa8c5c5f621f435f
+timeCreated: 1525231421
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: chest
+    100002: chin
+    100004: elbow_L
+    100006: elbow_R
+    100008: foot_L
+    100010: foot_R
+    100012: group
+    100014: headTop
+    100016: hip_L
+    100018: hip_R
+    100020: knee_L
+    100022: knee_R
+    100024: pasted__chest
+    100026: pasted__chin
+    100028: pasted__elbow_L
+    100030: pasted__elbow_R
+    100032: pasted__foot_L
+    100034: pasted__foot_R
+    100036: pasted__headTop
+    100038: pasted__hip_L
+    100040: pasted__hip_R
+    100042: pasted__knee_L
+    100044: pasted__knee_R
+    100046: pasted__shoulder_L
+    100048: pasted__shoulder_R
+    100050: pasted__SM_Character2
+    100052: pasted__waist
+    100054: pasted__wrist_L
+    100056: pasted__wrist_R
+    100058: shoulder_L
+    100060: shoulder_R
+    100062: SM_Character2
+    100064: SM_Hat
+    100066: //RootNode
+    100068: waist
+    100070: wrist_L
+    100072: wrist_R
+    400000: chest
+    400002: chin
+    400004: elbow_L
+    400006: elbow_R
+    400008: foot_L
+    400010: foot_R
+    400012: group
+    400014: headTop
+    400016: hip_L
+    400018: hip_R
+    400020: knee_L
+    400022: knee_R
+    400024: pasted__chest
+    400026: pasted__chin
+    400028: pasted__elbow_L
+    400030: pasted__elbow_R
+    400032: pasted__foot_L
+    400034: pasted__foot_R
+    400036: pasted__headTop
+    400038: pasted__hip_L
+    400040: pasted__hip_R
+    400042: pasted__knee_L
+    400044: pasted__knee_R
+    400046: pasted__shoulder_L
+    400048: pasted__shoulder_R
+    400050: pasted__SM_Character2
+    400052: pasted__waist
+    400054: pasted__wrist_L
+    400056: pasted__wrist_R
+    400058: shoulder_L
+    400060: shoulder_R
+    400062: SM_Character2
+    400064: SM_Hat
+    400066: //RootNode
+    400068: waist
+    400070: wrist_L
+    400072: wrist_R
+    2300000: pasted__SM_Character2
+    2300002: SM_Hat
+    3300000: pasted__SM_Character2
+    3300002: SM_Hat
+    4300000: SM_Character2
+    4300002: pasted__SM_Character2
+    4300004: SM_Hat
+    7400000: WalkingFarmCharacter
+    9500000: //RootNode
+    13700000: SM_Character2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_UVMap
+    second: {fileID: 2100000, guid: 10eaad3759df1d44493d5fb7ff4c902a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 5afc54168b67454488044b9ebef8c6d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__M_UVMap
+    second: {fileID: 2100000, guid: 10eaad3759df1d44493d5fb7ff4c902a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WalkingFarmCharacter
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: finishedscenebundle
+  assetBundleVariant: 
